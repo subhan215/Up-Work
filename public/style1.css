@@ -1,0 +1,406 @@
+/*  background image */
+.bg1{
+    background-image: url("Images/find-talent.bf9ad20.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 650px;
+}
+.bg1text{
+    padding: 0px 30px;
+}
+.bg1p{
+    color: #ffffff;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px 0px 100px;
+}
+.bg1h1{
+    font-size: 62px;
+    margin: 0px 0px 30px;
+    color: #ffffff;
+    
+}
+.bg1p2{
+    margin: 0px 0px 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card1, .card2 ,.card3{
+    background-color: #14A800;
+    color: #ffffff;
+    width: 28%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.cardp1{
+    font-size: 36px;
+    margin: 0px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+sup{
+    font-size: 10px;
+}
+.cardp2{
+    margin: 0px;
+    padding: 10px;
+}
+
+
+ /*  banner2     */
+  
+.bn2{
+   display: flex;
+   justify-content: center ;
+   margin-top: 80px;
+}
+.bn2div1{
+    margin-right: 70px;
+}
+.bn2div1 h1{
+    font-size: 80px;
+    margin: 0;
+}
+.bn2div1 ul{
+    padding: 0;
+    color: #9aaa97;
+    font-size: 36px;
+}
+
+.bn2li1{
+    color: #14A800;
+}
+.bn2img{
+    max-width: 455px;
+}
+.bn2img img{
+    width: 100%;
+}
+.bn2div2 button{
+    padding: 5px 15px;
+    margin: 0px 10px 10px 0px;
+    color: #65735b;
+    border-radius: 20px;
+    border:  2px solid #65735b;
+    background-color: transparent;
+}
+
+/* banner 3   */
+
+.bn3{
+    display: flex;
+    background-color: #1f57c3;
+    color: #ffffff;
+    margin-top: 50px;
+    
+}
+.bn3text1{
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+.bn3p1{
+    font-size: 24px;
+    margin-bottom: 30px;
+
+}
+.bn3h1{
+    font-size: 80px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.bn3p2{
+    margin-bottom: 100px;
+    font-size: 18px;
+}
+.hrdiv{
+    border-bottom: 1px solid #ffffff;
+    width: 600px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.bn3text2{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.bn3text2 p{
+    margin: 0;
+    padding: 0px 15px 20px;
+    font-size: 18px;
+}
+.bn3 button{
+    background-color: #ffffff;
+    border: none;
+    color: #1f57c3;
+    border-radius: 20px;
+    padding: 12px 29px;
+    margin: 20px 00px 10px 20px;
+}
+
+/*  banner 4 */
+.bn4{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.bn4div1 h1{
+    font-size: 80px;
+   margin: 0;
+   margin-bottom: 100px;
+   display: flex;
+   justify-content: flex-start;
+   position: relative;
+   right: 150px;
+}
+.bn4divp1{
+    color: #14a800;
+    font-size: 26px;
+}
+.bn4hr{
+    border-bottom: 2px solid #65735b;
+    width: 70%;
+}
+
+.bn4divp2{
+    font-size: 18px;
+}
+.divp2p1{
+    margin: 0;
+    margin: 5px 0;
+}
+.divp2p2{
+    margin: 0;
+    color: #65735b;
+}
+
+
+/*   banner 5     */
+.bn5{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #14A800;
+}
+.bn5text h1{
+    font-size: 80px;
+    color: #ffffff;
+    margin: 0;
+    margin: 20px 0 100px;
+    padding-left: 30px;
+}
+.bn5h1{
+    padding-bottom: 100px;
+}
+.bn52div{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 18px
+}
+
+/* Skills Names */
+.skillsnames{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0 100px !important;
+    margin-top: 20px;
+}
+.skillsnames ul{
+    padding: 0 15px !important;
+}
+.skillsnames li{
+    margin: 0px 0px 15px !important;
+    cursor: pointer;
+}
+.nameul1 li{
+    font-size: 40px ;
+    color: #d5e0d5;
+}
+.nameul1 li:hover{
+   
+    color: #65735b !important; 
+}
+.li1{
+    color: #14A800 !important;
+}
+.nameul2, .nameul3{
+    color: #65735b;
+    font-size: 24px;
+}
+.nameul2 li:hover, .nameul3 li:hover{
+    color: #9aaa97;
+}
+
+@media only screen and (max-width:880px) {
+    .bg1{
+        width: 100%;
+       height: 850px;
+        
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .card1, .card2, .card3{
+        margin: 5px 20px;
+        width: 93%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end!important;
+        justify-content: space-between;
+            }
+    .cardp1{
+        margin: 0;
+        padding-bottom: 0;
+        padding-top: 20px;
+    }
+    .cardp2{
+        padding-top: 0;
+        padding-right: 20px;
+    }
+    .bg1p{
+      padding: 0;
+      margin: 0;
+      padding-top: 100px;
+      margin-bottom: 30px;
+    }
+    .bn2{
+        flex-direction: column;
+    }
+    .bn5{
+        flex-direction: column;
+    }
+    .bn5 img{
+        width: 100%;
+    }
+    .bn5text h1{
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width:509px) {
+    .bg1{
+        height: 770px;
+    }
+    .card1, .card2, .card3{
+        display: flex;
+        flex-direction: column;
+       
+        max-width: 50%;
+        align-items: center !important;
+        
+    }
+    .cards{
+        align-items: center;
+        justify-content: flex-end !important;
+       
+     }
+    
+     .cardp1{
+         font-size: 18px ;
+     }
+     .cardp2{
+         padding-left: 0;
+         margin-top: 10px;
+         font-size: 10px;
+     }
+}
+@media only screen and (max-width:490px) {
+    
+      
+        .bg1p{
+           font-size: 13px;
+        }
+        .bg1h1{
+            font-size: 40px;
+        }
+        .bn2div1{
+            margin: 0 auto;
+        }
+        .bn2div1 h1{
+            font-size: 50px;
+        }
+        .bn2div1 ul {
+            font-size: 20px !important;
+
+           
+        }
+        .bn5text h1{
+            font-size: 60px;
+        }
+}
+@media only screen and (max-width:400px) {
+    
+    .bg1h1{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .bg1p{
+        padding-top: 120px;
+        margin-bottom: 5px;
+    }
+    .bg1p2{
+        margin-bottom: 10px;
+    }
+    .cardp1{
+        padding-top: 7px;
+    }
+    .bn5text h1{
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width:1120px) {
+    .bn4{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .bn4div1 h1{
+        right: 0;
+        margin-left: 20px;
+        
+    }
+    .bn4divtext{
+        display: flex;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .bn4 img{
+       width: 95px;
+       height: 130px;
+    }
+    .bn4divp1{
+        font-size: 16px;
+    }
+    .bn4divp2{
+        font-size: 10px;
+    }
+    .bn4divps{
+        margin-left: 10px;
+    }
+    .bn4hr{
+         width: 100%;
+    }
+}
+@media only screen and (max-width:1200px) {
+    .bn3{
+        flex-direction: column;
+    }
+    .bn3 .hrdiv{
+        width: 100%;
+    }
+    
+}
+
+

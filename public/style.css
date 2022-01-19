@@ -1,0 +1,162 @@
+*{
+   
+    box-sizing: border-box;
+}
+
+/* header    */
+ul{
+    list-style-type: none;
+}
+header{
+    width: 100%;
+}
+.header{ 
+   
+    display: flex;
+    margin:0px 50px ;
+    border-bottom: 1px solid rgb(187, 161, 161);
+    color: #65735B;
+    
+}
+.upwork{
+    display: flex;
+    align-items: center;
+}
+.hlp1{
+    display: flex;
+    width: 472px;
+    align-items: center;
+}
+.hlp2{
+    display: flex;
+    width: 532px;
+    align-items: center;
+    justify-content: space-around;
+}
+.headerlinks ul{
+    width: 100%;
+   display: flex;
+   
+    justify-content: space-around;
+    
+}
+.talentli{
+    padding: 0px 15px;
+}
+.span{
+    padding: 9px 0px;
+} 
+.workli{
+    padding: 0px 15px;
+}
+.whyli{
+    padding: 0px 15px;
+}
+.enli{
+    padding: 0px 15px;
+}
+
+.searchli{
+    width: 241px;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    border-radius: 20px ;
+    padding: 10px 7px 10px 50px;
+}
+.searchli i{
+    padding: 0px 3px;
+}
+.loginli{
+    padding: 0px 20px;
+}
+.signupli{
+    padding: 12px 29px;
+    background-color: #14A800;
+    border-radius: 30px;
+    color: #ffffff;
+}
+.secondlinks ul{
+    display: flex;
+    justify-content: space-evenly;
+    color: #65735B;
+    
+}
+
+/* banner 1 */
+.banner1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+    
+    
+    
+    
+}
+.bgtext{
+    text-align: center;
+}
+
+
+.bgtext h1{
+    font-size: 80px;
+    color: #14A800;
+    margin: 0px;
+    margin-bottom: 10px;
+  
+}
+.bgtext .p{
+    color: #65735B;
+    margin: 0px ;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.btn1{
+    background-color: #14A800;
+    border-radius: 30px;
+    padding: 12px 29px;
+    color: white;
+    border: none;
+}
+.btn2{
+    color: #14A800;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 12px 29px;
+    border:2px solid #14A800;
+}
+.p1{
+    color: #65735B;
+    margin: 50px 0px 10px 0px;
+}
+.logo2{
+    margin: 0px 50px 0px 0px ;
+}
+
+@media only screen and  (max-width:1000px){
+     .header{
+         display: flex;
+         flex-direction: column;
+        
+     }
+     .upwork{
+         margin: 0 auto;
+     }
+     .hlp1, .hlp2{
+        margin: 0 ;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+     }
+     .secondlinks ul {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+}
+ @media only screen and (max-width:770px){
+         .banner1{
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+         }
+ }
